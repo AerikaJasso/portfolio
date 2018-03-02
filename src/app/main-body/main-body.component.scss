@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+.container-fluid{
+  height: 600px;
+  max-width: 100%;
+  margin: 20px 0 20px 0;
+}
+
+.overlay-img:before {
+  box-shadow: -15px 0 10px -15px inset;
+  content: " ";
+  height: 100%;
+  left: -15px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.overlay-img {
+   background-image: url("/assets/images/Me.png");
+   background-size: 383px 550px;
+   height: 550px;
+   width: 383px;
+   background-repeat: no-repeat;
+   z-index: 2;
+   position: relative;
+   top: 68px;
+}
+
+.overlay-box {
+  height: 50px;
+  width: 155px;
+  background: rgba(255, 214, 150, .50);
+  position: relative;
+  left: 300px;
+  top: 195px;
+}
+
+#rightBox{
+  width: 425px;
+  left: 80px;
+  position: relative;
+  height: 600px;  
+  padding:0;
+
+}
+
+.rightInnerBox{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 3px;
+  margin-bottom: 5px;
+
+}
+
+h1.display-4 {
+  margin-bottom: 0;
+}
+h1.display-4.lastname {
+  margin-top: -15px;
+}
+strong {
+  color: #FFD6A0;
+}
+
+.col-lg-3.col-md-6.left-block{
+  background: rgba(255, 214, 150, .50);
+  width: 341px;
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  left: 15%;
+}
+
+
+@media (max-width: 800px) {
+  .overlay-img {
+    background-image: url("/assets/images/Me.png");
+    // -webkit-background-image-size:;
+    // -moz-background-image-size:;
+    // -o-background-image-size:;
+    background-size: 220px 330px;
+    height: 330px;
+    width: 220px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+    top: 68px;
+  }
+
+  .overlay-box {
+    height: 25px;
+    width: 78px;
+    background: rgba(255, 214, 150, .50);
+    position: relative;
+    left: 175px;
+    top: 120px;
+  }
+
+  #rightBox {
+    width: 212px;
+    left: 40px;
+    position: relative;
+    height: 300px;
+    padding: 0;
+  }
+
+  .rightInnerBox {
+    position: absolute;
+    top: 72%;
+    transform: translate(0, -50%);
+    padding: 3px;
+    margin-bottom: 5px;
+  }
+
+
+  h1.display-4 {
+      margin-bottom: 0;
+      font-size: 35px;
+  }
+
+  h1.display-4.lastname {
+      margin-top: -15px;
+      font-size: 35px;
+  }
+
+  p.h3{
+      font-size: 20px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .overlay-img {
+    background-image: url("/assets/images/Me.png"); // -webkit-background-image-size:;
+    // -moz-background-image-size:;
+    // -o-background-image-size:;
+    background-size: 220px 330px;
+    height: 330px;
+    width: 220px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;    
+  }
+  .overlay-box {
+    visibility: hidden;
+  }
+  #rightBox {
+    position: relative;
+    top: 150px;
+    margin: 0;
+  }
+  .rightInnerBox {
+    position: relative;
+    top: 72%;
+    transform: translate(0, -50%);
+    padding: 3px;
+    margin-bottom: 5px;
+  }
+  h1.display-4 {
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+  h1.display-4.lastname {
+    margin-top: -15px;
+    font-size: 45px;
+  }
+  p.h3 {
+    font-size: 30px;
+  }
+}

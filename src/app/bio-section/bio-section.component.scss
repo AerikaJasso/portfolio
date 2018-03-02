@@ -1,0 +1,33 @@
+.main {
+    max-width: 100%;
+    min-height: 736px;
+    background: #1b1b1f;
+    margin: 0;
+    padding: 0;
+}
+
+span.regular{
+    font-size: 22px;
+}
+span.semibold.py-2 {
+    margin-bottom: 45px !important;
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 10px;
+}
+.img-section{
+    margin: 20px 0 40px 0 ;
+}
+
+span{
+    vertical-align: baseline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 3px !important;
+    margin-top: 15px !important;
+    padding: 15px !important;
+}
